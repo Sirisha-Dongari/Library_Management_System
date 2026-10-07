@@ -1,19 +1,10 @@
 # 📚 Library Management System
 
-A web-based **Library Management System** developed using **ASP.NET MVC, C#, and SQL Server**.  
-The application is designed to manage library-related information in a simple and user-friendly way.
+## 📌 Project Overview
 
----
+The **Library Management System** is a web-based application developed using **ASP.NET Web Forms, C#, ADO.NET, and SQL Server**.
 
-## 📝 Project Overview
-
-The **Library Management System** helps manage customer/library records efficiently.
-
-The application follows the **MVC (Model-View-Controller)** architecture, which separates the application into:
-
-- **Model** – Handles application data and database-related operations.
-- **View** – Provides the user interface.
-- **Controller** – Handles user requests and application logic.
+The application is designed to manage library records efficiently and provides a simple, user-friendly interface for performing database operations.
 
 ---
 
@@ -21,17 +12,29 @@ The application follows the **MVC (Model-View-Controller)** architecture, which 
 
 ### 👤 Customer Management
 
-- ➕ Add new customers
-- 📋 Display customer details
-- ✏️ Edit customer information
-- 🗑️ Delete customer records
-- 🔍 View customer information
+- Add new customer records
+- View customer details
+- Edit customer information
+- Delete customer records
+- Search and view customer information
 
 ### 📚 Library Management
 
-- Manage library-related records
-- Store and retrieve information from the database
-- Perform CRUD operations efficiently
+- Manage library records
+- Store and retrieve data from SQL Server
+- Perform CRUD operations
+- User-friendly interface for managing records
+
+---
+
+## 🔄 CRUD Operations
+
+The application supports:
+
+- **Create** – Add new records
+- **Read** – View existing records
+- **Update** – Modify existing records
+- **Delete** – Delete records
 
 ---
 
@@ -40,31 +43,45 @@ The application follows the **MVC (Model-View-Controller)** architecture, which 
 | Technology | Purpose |
 |------------|---------|
 | **C#** | Programming Language |
-| **ASP.NET MVC** | Web Application Framework |
-| **SQL Server** | Database |
+| **ASP.NET Web Forms** | Web Application Framework |
 | **ADO.NET** | Database Connectivity |
+| **SQL Server** | Database |
 | **HTML** | Page Structure |
 | **CSS** | Styling |
-| **JavaScript** | Client-side functionality |
+| **JavaScript** | Client-Side Functionality |
 | **Visual Studio** | Development Environment |
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ Application Architecture
 
-This project follows the **MVC Architecture**:
+This project uses the **ASP.NET Web Forms Code-Behind approach**.
 
-```text
-                User
-                 ↓
-            Controller
-                 ↓
-              Model
-                 ↓
-            SQL Server
-                 ↓
-              Model
-                 ↓
-               View
-                 ↓
-               User
+- **.aspx** → User Interface
+- **.aspx.cs** → C# Server-Side Logic and Event Handling
+- **ADO.NET** → Database Connectivity
+- **SQL Server** → Data Storage
+
+---
+
+## 💻 Development Environment
+
+- Visual Studio
+- ASP.NET Web Forms
+- C#
+- ADO.NET
+- SQL Server
+
+---
+
+## 🎯 Project Objective
+
+The objective of this project is to develop a simple and user-friendly **Library Management System** for managing library records and performing database operations using **ASP.NET Web Forms, C#, ADO.NET, and SQL Server**.
+
+---
+
+## 👩‍💻 Author
+
+**Sirisha Dongari**
+
+.NET Developer | C# | ASP.NET | SQL Server
